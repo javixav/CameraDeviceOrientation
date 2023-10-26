@@ -25,10 +25,10 @@ So after testing, don't forget to delete the images that are also saved to your 
 Never tested in IOS, tested in Android 10 api 29.
 
 # How to test it
-Once the app installed and working, you should see a SmartTile with camera's icons, click on the camera icon
-this open a new screen with the Preview Widget, there you can either click on the blue camera icon or tap 2 times to exit the screen
-and choose not to take a picture.
-You can test the flash, the torch
+Once the app installed and working, you should see a 10 Tiles with camera's icons in each of them, choose one and click on the small camera icon this open a new screen with the Preview Widget, there you can either click on the blue camera icon to take a picture or tap 2 times to exit the screen and choose not to take the picture.
+You can also test the flash, the torch etc...
+When taking the picture, the picture is loaded in the Tile and also saved to the android shared storage ("Documents/appname/images").
+When dealing with pictures we often want to save them to a persistant storage, if you save it to the app private storage it will be deleted when the app is uninstall.
 
 # Limits to this script
 
